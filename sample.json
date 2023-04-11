@@ -1,0 +1,362 @@
+{
+    "template": {
+        "begin": "sample_begin.html",
+        "stylesheet": "sample_style.css",
+        "qgroup": "<b>{qg_text}</b>",
+        "question": "<b>Question {q_num}. </b>",
+        "answer": "{a_letter}. {a_text}",
+        "end": "sample_end.html",
+        "formatting": [
+            { "ans_per_line": 4, "min_chars": 0 },
+            { "ans_per_line": 2, "min_chars": 20 },
+            { "ans_per_line": 1, "min_chars": 35 }
+        ]
+    },
+
+    "qgroups": [
+        {
+            "qg_text": "Mark the letter A, B, C, or D on your answer sheet to indicate the word whose underlined part differs from the other three in pronunciation in each of the following questions.",
+            "questions": [
+                {
+                    "answers": ["trust<u>ed</u>", "agre<u>ed</u>", "mend<u>ed</u>", "contract<u>ed</u>"],
+                    "correct": 1
+                },
+                {
+                    "answers": ["p<u>u</u>nctual", "r<u>u</u>bbish", "fr<u>u</u>strate", "f<u>u</u>rious"],
+                    "correct": 3
+                }
+            ]
+        },
+        {
+            "qg_text": "Mark the letter A, B, C, or D on your answer sheet to indicate the word that differs from the other three in the position of primary stress in each of the following questions.",
+            "questions": [
+                {
+                    "answers": ["compass", "complex", "comfort", "command"],
+                    "correct": 3
+                },
+                {
+                    "answers": ["symbolic", "expensive", "disastrous", "confident"],
+                    "correct": 3
+                }
+            ]
+        },
+        {
+            "qg_text": "Mark the letter A, B, C, or D on your answer sheet to indicate the correct answer to each of the following questions.",
+            "questions": [
+                {
+                    "q_text": "Since the dawn of time, our country’s _________ goal was modernization and economic development.",
+                    "answers": ["comparative", "primary", "relative", "elementary"],
+                    "correct": 1
+                },
+                {
+                    "q_text": "These novels aren’t yours, _________?",
+                    "answers": ["are these", "aren't they", "are them", "are they"],
+                    "correct": 3
+                },
+                {
+                    "q_text": "This is a(n) _________ business, therefore we cannot afford day-off.",
+                    "answers": ["all-round", "year-round", "all-year", "yearly"],
+                    "correct": 1
+                },
+                {
+                    "q_text": "Nguyen Hue made _____ surprise attack against _____ Chinese during Tet, _____ Vietnamese and Chinese Lunar New Year holiday.",
+                    "answers": ["a-Ø-Ø", "the-Ø-Ø", "a-the-the", "a-the-Ø"],
+                    "correct": 2
+                },
+                {
+                    "q_text": "I'm in a really difficult _________ and I don't know what to do next.",
+                    "answers": ["dilemma", "paradox", "query", "hunch"],
+                    "correct": 0
+                },
+                {
+                    "q_text": "I don’t know how to _______ the laundry or iron clothes.",
+                    "answers": ["make", "do", "have", "look"],
+                    "correct": 1
+                },
+                {
+                    "q_text": "Over the next 30 years, little remained _________ as the camera, the cinema, the photograph, the plane and radio all had an electrifying effect on people and society.",
+                    "answers": ["altering", "alteration", "altered", "unaltered"],
+                    "correct": 3
+                },
+                {
+                    "q_text": "Were you really just on the point __________?",
+                    "answers": ["of resigning", "to resign", "with resignation", "of having resigned"],
+                    "correct": 0
+                },
+                {
+                    "q_text": "This time tomorrow, Barry will _______ across the Pacific for exactly three months.",
+                    "answers": ["be rowing", "be rowed", "have rowed", "have been rowing"],
+                    "correct": 3
+                },
+                {
+                    "q_text": "The more you practice speaking in public, the more _______.",
+                    "answers": ["you become confident", "confident you become", "you become confidence", "you become confidently"],
+                    "correct": 1
+                },
+                {
+                    "q_text": "That new painting looks a bit out of ________ in our living room, don’t you think?",
+                    "answers": ["room", "place", "space", "spot"],
+                    "correct": 1
+                },
+                {
+                    "q_text": "I'd love to live in the old days, when people ______ to market by horse and carriage.",
+                    "answers": ["have been travelling", "got used to travelling", "would have been travelling", "had been travelling"],
+                    "correct": 1
+                },
+                {
+                    "q_text": "________ find out more about the costs before we make a final decision?",
+                    "answers": ["Do I", "Will I", "Am I due to", "Shall I"],
+                    "correct": 3
+                },
+                {
+                    "q_text": "I’m not sure if I'm doing it right, but I’ll try to _______ ahead with it anyway.",
+                    "answers": ["drive", "bang", "touch", "press"],
+                    "correct": 3
+                },
+                {
+                    "q_text": "________ warm yesterday, we would have gone to the beach.",
+                    "answers": ["Were it", "Had it been", "Should it", "If it"],
+                    "correct": 1
+                }               
+            ]
+        },
+        {
+            "qg_text": "Mark the letter A, B, C, or D on your answer sheet to indicate the underlined part that needs correction in each of the following questions.",
+            "questions": [
+                {
+                    "q_text": "The master <u>of ceremony</u> announced in a loud and clear voice <u>and said</u> that the dinner <u>would be</u> late <u>due to</u> unforeseen circumstances.",
+                    "answers": ["of ceremony", "and told", "would be", "due to"],
+                    "correct": 0,
+                    "no_mix": true
+                },
+                {
+                    "q_text": "<u>Difficulty</u> as it is <u>for</u> human <u>beings</u> <u>to fight</u> against pollution.",
+                    "answers": ["Difficulty", "for", "beings", "to fight"],
+                    "correct": 0,
+                    "no_mix": true
+                },
+                {
+                    "q_text": "Air pollution, together <u>with</u> littering, <u>are</u> causing <u>manyfold</u> issues <u>in our large</u>, industrial cities today.",
+                    "answers": ["with", "are", "manyfold", "in our large"],
+                    "correct": 1,
+                    "no_mix": true
+                }
+            ]
+        },
+        {
+            "qg_text": "Read the following passage and mark the letter A, B, C, or D on your answer sheet to indicate the correct word or phrase that bets fits each of the numbered blanks from {0} to {4}.",
+            "question": "Over the next 20 to 50 years, it will become harder to tell the ({0}) _____ between the human and the machine. All body parts will be replaceable. Computers will function like the human ({1}) _____ with the ability to recognize feelings and respond in a feeling way. They will then produce fake people. We will then be able to create a machine duplicate of ourselves ({2}) _____ we will appear to be alive long after we are dead. Maybe a few decades later, a way will be found to transfer our spirit, including our ({3}) _____ and thoughts, to the new body. Then we can choose to live for as long as we want. It might be expensive. When it becomes possible to do a spirit transfer, they will figure out ({4}) _____ to do them automatically. So we will be able to reside within whichever duplicate we want, whenever we want.",
+            "no_mix": true,
+            "questions": [
+                {
+                    "answers": ["variety", "change", "difference", "appearance"],
+                    "correct": 2
+                },
+                {
+                    "answers": ["brain", "limb", "skull", "liver"],
+                    "correct": 0
+                },
+                {
+                    "answers": ["such", "as", "so", "but"],
+                    "correct": 2
+                },
+                {
+                    "answers": ["experiences", "memories", "actions", "health"],
+                    "correct": 1
+                },
+                {
+                    "answers": ["when", "what", "how", "why"],
+                    "correct": 2
+                }
+            ]
+        },
+        {
+            "qg_text": "Read the following passage and mark A, B, C or D to indicate the correct answer to each of the questions from {0} to {4}.",
+            "question": "<p style='width:100%;text-align:center;'><b>SCIENCE FLYING IN THE FACE OF GRAVITY</b></p><p>It looked just like another aircraft from the outside. The pilot told his young passengers that it was built in 1964, a Boeing KC-135 refueling tanker, based on the 707. But appearances were deceptive, and the 13 students from Europe and the USA who boarded the aircraft were in for the flight of their lives.</p><p>Inside, the area that normally had seats had become a long white tunnel. Heavily padded from floor to ceiling; it looked a bit like a lunatic asylum. There were almost no windows, but lights along the padded walls <b><u>eerily</u></b> illuminated it. Most of the seats had been taken out apart from a few at the back, where the young scientists quickly took their places with a look of apprehension.</p><p>For 12 months, science students from across the continents had competed to win a place on the flight at the invitation of the European Space Agency. The challenge had been to suggest imaginative experiments to be conducted in weightless conditions. For the next two hours the Boeing's flight resembled that of an enormous bird which had lost its reason, shooting upwards towards the heavens before hurtling towards Earth. The intention was to achieve weightlessness for a few seconds.</p><p>The aircraft took off smoothly enough, but any feelings that I and the young scientists had that we were on anything like a scheduled passenger service were quickly dismissed when the pilot put the plane into a 45-degree climb which lasted around 20 seconds. Then the engine cut out and we became weightless. Everything became confused, and left or right, up or down no longer had any meaning. After 10 seconds of free-fall descent, the pilot pulled the aircraft out of its nosedive. The return of gravity was less immediate than its loss, but was still sudden enough to ensure that some students came down with a bump.</p><p>After two hours of going up and down in the plane doing experiments, the predominant feeling was one of exhilaration rather than nausea. Most of the students thought <b><u>it</u></b> was an unforgettable experience and one they would be keen to repeat.</p>",
+            "no_mix": true,
+            "questions": [
+                {
+                    "q_text": "What does the writer say about the plane?",
+                    "answers": ["It had no seats.", "It had no windows.", "The inside was painted white.", "The outside was misleading."],
+                    "correct": 3
+                },
+                {
+                    "q_text": "What does the word “<b>eerily</b>” in paragraph 2 mean?",
+                    "answers": ["badly", "brightly", "clearly", "strangely"],
+                    "correct": 3
+                },
+                {
+                    "q_text": "What did the pilot do with the plane?",
+                    "answers": [
+                        "He climbed and made the plane turn over.",
+                        "He climbed and made the plane fall slowly.",
+                        "He quickly climbed and stopped the engines.",
+                        "He took off normally then cut the engine for 20 seconds."
+                    ],
+                    "correct": 2
+                },
+                {
+                    "q_text": "What does the word “<b>it</b>” in the last paragraph refer to?",
+                    "answers": ["the exhilaration", "the opportunity", "the plane", "the trip"],
+                    "correct": 3
+                },
+                {
+                    "q_text": "Why was this passage written?",
+                    "answers": ["It had no seats.", "It had no windows.", "The inside was painted white.", "The outside was misleading."],
+                    "correct": 1
+                }
+            ]
+        },
+        {
+            "qg_text": "Read the following passage and mark A, B, C or D to indicate the correct answer to each of the questions from {0} to {6}.",
+            "question": "<p>Herman Melville, an American author best known today for his novel Moby Dick, was actually more popular during his lifetime for some of his other works. He traveled extensively and used the knowledge gained during his travels as the <b><u>basis</u></b> for his early novels. In 1837, at the age of eighteen, Melville signed up as a cabin boy on a merchant ship that was to sail from his Massachusetts home to Liverpool, England. His experiences on this trip served as a basis for the novel Redburn (1849). In 1841, Melville set out on a whaling ship headed for the South Seas. After jumping ship in Tahiti, he wandered around the 10 islands of Tahiti and Moorea. This South Sea island sojourn was a backdrop to the novel Omoo (1847). After three years away from home, Melville joined up with a U.S. naval frigate that was returning to the eastern United States around Cape Horn. The novel White-Jacket (1850) describes this lengthy voyage as a navy seaman. With the publication of these early adventure novels, Melville developed a strong and loyal following among readers eager for his tales of exotic places and situations.</p><p>However, in 1851, with the publication of Moby Dick, Melville’s popularity started to diminish. Moby Dick, on one level the saga of the hunt for the great white whale, was also a heavily symbolic allegory of the heroic struggle of man against the universe. The public was not ready for Melville’s literary <b><u>metamorphosis</u></b> from romantic adventure to philosophical symbolism. It is ironic that the novel that served to diminish Melville’s popularity during his lifetime is the one for which he is best known today.</p>",
+            "no_mix": true,
+            "questions": [
+                {
+                    "q_text": "What is the main subject of the passage?",
+                    "answers": ["Melville’s travels", "Melville’s personal background", "The popularity of Melville’s novels", "Moby Dick"],
+                    "correct": 2
+                },
+                {
+                    "q_text": "According to the passage, Melville’s early novels were _________.",
+                    "answers": ["published while he was travelling", "completely fictional", "all about his work on the whaling ship", "based on his travel experience"],
+                    "correct": 3
+                },
+                {
+                    "q_text": "The word “<b>basis</b>” is closest in meaning to _________.",
+                    "answers": ["foundation", "message", "bottom", "theme"],
+                    "correct": 0
+                },
+                {
+                    "q_text": "In what year did Melville’s book about his experiences as a sailor appear?",
+                    "answers": ["1837", "1850", "1849", "1847"],
+                    "correct": 1
+                },
+                {
+                    "q_text": "How did the publication of Moby Dick affect Melville’s popularity?",
+                    "answers": [
+                        "His popularity increased immediately.",
+                        "It had no effect on his popularity.",
+                        "It caused his popularity to decrease.",
+                        "His popularity remained as strong as it is today."],
+                    "correct": 2
+                },
+                {
+                    "q_text": "According to the passage, Moby Dick is _________.",
+                    "answers": ["a romantic adventure", "a single-faceted work", "a short story about a whale", "symbolic of humanity fighting the environment"],
+                    "correct": 3
+                },
+                {
+                    "q_text": "The word “<b>metamorphosis</b>” is closest in meaning to __________.",
+                    "answers": ["change", "circle", "mysticism", "descent"],
+                    "correct": 0
+                }
+            ]
+        },
+        {
+            "qg_text": "Mark the letter A, B, C, or D on your answer sheet to indicate the word(s) CLOSEST in meaning to the underlined word(s) in each of the following questions.",
+            "questions": [
+                {
+                    "q_text": "Since her parents’ death, she has <b><u>been brought up</u></b> by her uncle.",
+                    "answers": ["cried for", "died for", "lived with", "been in touch with"],
+                    "correct": 2
+                },
+                {
+                    "q_text": "Efforts by the government agency to improve its work were <b><u>hampered</u></b> by the lack of funds.",
+                    "answers": ["hindered", "assisted", "encouraged", "endangered"],
+                    "correct": 0
+                }
+            ]
+        },
+        {
+            "qg_text": "Mark the letter A, B, C, or D on your answer sheet to indicate the word(s) OPPOSITE in meaning to the underlined word(s) in each of the following questions.",
+            "questions": [
+                {
+                    "q_text": "Mail shots have proved to be the most <b><u>cost-effective</u></b> method of marketing our products.",
+                    "answers": ["cheap", "inefficient", "encouraging", "discouraging"],
+                    "correct": 1
+                },
+                {
+                    "q_text": "“Do you think it’s OK for me to wear jeans to a job interview or do I need something a bit more <b><u>upmarket</u></b>?”",
+                    "answers": ["cheap and poor quality", "high quality or expensive", "trendy and fashionable", "brand-name but old"],
+                    "correct": 0
+                }
+            ]
+        },
+        {
+            "qg_text": "Mark the letter A, B, C, or D on your answer sheet to indicate the option that best completes the following exchanges.",
+            "questions": [
+                {
+                    "q_text": "<br>Jenny: “I think higher living standard is one of the reasons that many people want to be a city dweller.”<br>Mark: “_________”",
+                    "answers": ["Why not?", "I couldn't agree more.", "It's nice of you to say so.", "That's quite all right."],
+                    "correct": 1
+                },
+                {
+                    "q_text": "Jack is inviting Mary to his party.<br>Jack: “Would you like to come to my party this weekend?”<br>Mary: “_________”",
+                    "answers": ["Yes, I'd love to.", "No, don't worry.", "You're welcome.", "I'm afraid so."],
+                    "correct": 0
+                }
+            ]
+        },
+        {
+            "qg_text": "Mark the letter A, B, C, or D on your answer sheet to indicate the sentence that best combines each pair of sentences in the following questions.",
+            "questions": [
+                {
+                    "q_text": "The proposal seemed like a good idea. The manager refused it.",
+                    "answers": [
+                        "Since the proposal seemed like a good idea, the manager refused it.",
+                        "The manager refused the proposal though it seemed like a good idea.",
+                        "The proposal didn’t seem like a good idea, so the manager didn’t accept it.",
+                        "The manager didn’t like to proposal because it didn’t seem a good idea."
+                    ],
+                    "correct": 1
+                },
+                {
+                    "q_text": "The newly advertised product had just been on sale. Customers realised that it had lots of defects.",
+                    "answers": [
+                        "Hardly had the newly advertised product been on sale when customers wouldn’t realise that it had lots of defects.",
+                        "Hardly had the newly advertised product been on sale when producers realised that it had lots of defects.",
+                        "Hardly had the newly advertised product been on sale when customers realised that it had lots of defects.",
+                        "Hardly had the newly advertised product been on sale when did customers realised that it had lots of defects."
+                    ],
+                    "correct": 2
+                }
+            ]
+        },
+        {
+            "qg_text": "Mark the letter A, B, C, or D on your answer sheet to indicate the sentence that is closest in meaning to each of the following questions.",
+            "questions": [
+                {
+                    "q_text": "It is compulsory for the students in this school to wear uniform.",
+                    "answers": [
+                        "The students in this school must wear uniform.", 
+                        "The students in this school can't wear uniform.",
+                        "The students in this school may wear uniform.",
+                        "The students in this school needn't wear uniform."
+                    ],
+                    "correct": 0
+                },
+                {
+                    "q_text": "“What a novel idea for the farewell party you’ve got,” said Nam to the monitor.",
+                    "answers": [
+                        "Nam thought over the novel idea for the farewell party.", 
+                        "Nam came up with the novel idea for the farewell party.",
+                        "Nam said that it was a novel idea of his classmates for the farewell party.",
+                        "Nam exclaimed with admiration at the novel idea for the farewell party of the monitor."
+                    ],
+                    "correct": 3
+                },
+                {
+                    "q_text": "Seth informed us of his retirement from the company. He did it when arriving at the meeting.",
+                    "answers": [
+                        "Only after his retiring from the company did Seth tell us about his arrival at the meeting.", 
+                        "Not until Seth said to us that he would leave the company did he turn up at the meeting.",
+                        "Hardly had Seth notified us of his retiring from the company when he arrived at the meeting.",
+                        "No sooner had Seth arrived at the meeting than we were told about his leaving the company."
+                    ],
+                    "correct": 3
+                }
+            ]
+        }
+    ]
+}

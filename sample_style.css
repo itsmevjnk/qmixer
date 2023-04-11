@@ -1,0 +1,20 @@
+header {
+    margin-bottom: 6px;
+}
+
+section {
+    margin-bottom: 4px;
+}
+
+.question {
+    margin-bottom: 1px;
+}
+
+body {
+    text-align: justify;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 3px;
+}
